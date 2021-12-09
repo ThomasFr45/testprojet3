@@ -1,0 +1,38 @@
+.booking-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width:500px;
+}
+
+.available {
+  margin-left:30px
+}
+
+li {
+  width:200px;
+}
+
+.selected-date {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 500px) {
+  .booking-body {
+    width: fit-content;
+  }
+}
+
+@media (min-width: 800px) {
+  .booking-body {
+    flex-direction: row;
+    width:800px;
+  }
+}
+
+@media (min-width:1200px) {
+  .booking-body {
+    width:1000px;
+  }
+}
